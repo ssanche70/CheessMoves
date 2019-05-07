@@ -19,4 +19,10 @@ def obtener_nombre_pieza(simbolo):
     :param simbolo: la representacion de la pieza segun el enunciado
     :return: El nombre y color de la pieza
     """
-    pass
+
+    if simbolo == 'p':
+        return 'Peon blanco'
+    if simbolo == 'R':
+        return 'Rey Negro'
+    else:
+        'No es una opcion valida'
